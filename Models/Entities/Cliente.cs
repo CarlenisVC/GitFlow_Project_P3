@@ -17,7 +17,5 @@ namespace CRUDProyect.Models.Entities
 
         public string Telefono { get; set; } 
 
-
-
     }
 }
