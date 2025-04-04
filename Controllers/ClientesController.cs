@@ -72,7 +72,7 @@ namespace CRUDProyect.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: Clientes/Edit/5
+        // Actualizar cliente
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -88,7 +88,6 @@ namespace CRUDProyect.Controllers
             return View(cliente);
         }
 
-        // Actualizar cliente
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Phone")] Cliente cliente)
