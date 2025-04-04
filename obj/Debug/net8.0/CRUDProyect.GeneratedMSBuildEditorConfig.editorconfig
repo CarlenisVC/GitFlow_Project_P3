@@ -28,28 +28,28 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/CrearClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXJDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/DetalleClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWxsZUNsaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/EditarClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdGFyQ2xpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/EliminarClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWxpbWluYXJDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/Index1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXgxLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/Index2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXgyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/Index3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXgzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/Index4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXg0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/Index5.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXg1LmNzaHRtbA==
+[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/ListaClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTGlzdGFDbGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Proyecto CRUD P3/CRUDProyect/Views/Home/Index.cshtml]

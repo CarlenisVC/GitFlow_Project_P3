@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Proyecto CRUD P3\\CRUDProyect\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE77BB74-3D27-460A-9AAB-98E39E0D6893}|CRUDProyect.csproj|c:\\proyecto crud p3\\crudproyect\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE77BB74-3D27-460A-9AAB-98E39E0D6893}|CRUDProyect.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE77BB74-3D27-460A-9AAB-98E39E0D6893}|CRUDProyect.csproj|c:\\proyecto crud p3\\crudproyect\\views\\clientes\\index5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE77BB74-3D27-460A-9AAB-98E39E0D6893}|CRUDProyect.csproj|solutionrelative:views\\clientes\\index5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE77BB74-3D27-460A-9AAB-98E39E0D6893}|CRUDProyect.csproj|c:\\proyecto crud p3\\crudproyect\\models\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE77BB74-3D27-460A-9AAB-98E39E0D6893}|CRUDProyect.csproj|solutionrelative:models\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +54,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Proyecto CRUD P3\\CRUDProyect\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Proyecto CRUD P3\\CRUDProyect\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:46:35.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index5.cshtml",
+              "DocumentMoniker": "C:\\Proyecto CRUD P3\\CRUDProyect\\Views\\Clientes\\Index5.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Index5.cshtml",
+              "ToolTip": "C:\\Proyecto CRUD P3\\CRUDProyect\\Views\\Clientes\\Index5.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Index5.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T15:46:21.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20250403151357_PrimeraMigracion.cs",
               "DocumentMoniker": "C:\\Proyecto CRUD P3\\CRUDProyect\\Migrations\\20250403151357_PrimeraMigracion.cs",
               "RelativeDocumentMoniker": "Migrations\\20250403151357_PrimeraMigracion.cs",
@@ -54,12 +88,11 @@
               "RelativeToolTip": "Migrations\\20250403151357_PrimeraMigracion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:13:57.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T15:13:57.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Proyecto CRUD P3\\CRUDProyect\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -71,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Proyecto CRUD P3\\CRUDProyect\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -83,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Proyecto CRUD P3\\CRUDProyect\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -95,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Proyecto CRUD P3\\CRUDProyect\\Models\\Entities\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Cliente.cs",
