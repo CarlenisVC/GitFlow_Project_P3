@@ -48,6 +48,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXg0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
+[C:/Proyecto CRUD P3/CRUDProyect/Views/Clientes/Index5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXg1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+=======
+>>>>>>> 6f1f6ce40b68de815556d39df5a8363046ecc04f
 [C:/Proyecto CRUD P3/CRUDProyect/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
