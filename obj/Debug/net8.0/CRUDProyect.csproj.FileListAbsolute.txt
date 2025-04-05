@@ -171,3 +171,5 @@ C:\Proyecto CRUD P3\CRUDProyect\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.
 C:\Proyecto CRUD P3\CRUDProyect\obj\Debug\net8.0\CRUDProyect.csproj.AssemblyReference.cache
 C:\Proyecto CRUD P3\CRUDProyect\obj\Debug\net8.0\CRUDProy.7168C791.Up2Date
 C:\Proyecto CRUD P3\CRUDProyect\obj\Debug\net8.0\CRUDProyect.sourcelink.json
+C:\Proyecto CRUD P3\CRUDProyect\bin\Debug\net8.0\package-lock.json
+C:\Proyecto CRUD P3\CRUDProyect\bin\Debug\net8.0\package.json
