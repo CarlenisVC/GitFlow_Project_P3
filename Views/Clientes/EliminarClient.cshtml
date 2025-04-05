@@ -23,7 +23,7 @@
     </dl>
 </div>
 
-<form method="post">
+<form asp-action="DeleteConfirmed" method="post">
     @Html.AntiForgeryToken()
     @Html.HiddenFor(model => model.Id)
 

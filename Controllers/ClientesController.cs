@@ -8,40 +8,41 @@ namespace CRUDProyect.Controllers
     public class ClientesController : Controller
     {
         private readonly ApplicationDbContext _context;
-
+        
         public ClientesController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // Lista a los clientes
+        
         public async Task<IActionResult> Index()
         {
             return View(await _context.Clientes.ToListAsync());
         }
 
-        // Crear clientes
+        
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Clientes/Create
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Email,Phone")] Cliente cliente)
+        public async Task<IActionResult> Create([Bind("Id,Nombre,Email,Telefono")] Cliente cliente) 
         {
             if (ModelState.IsValid)
             {
                 _context.Add(cliente);
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
             return View(cliente);
         }
 
-        // Eliminar clientes
-        public async Task<IActionResult> Delete(int? id)
+        
+        public async Task<IActionResult> EliminarClient(int? id)
         {
             if (id == null)
             {
@@ -58,7 +59,7 @@ namespace CRUDProyect.Controllers
             return View(cliente);
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("DeleteConfirmed")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -72,8 +73,8 @@ namespace CRUDProyect.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // Actualizar cliente
-        public async Task<IActionResult> Edit(int? id)
+        
+        public async Task<IActionResult> EditarClient(int? id)
         {
             if (id == null)
             {
@@ -90,7 +91,7 @@ namespace CRUDProyect.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Phone")] Cliente cliente)
+        public async Task<IActionResult> Edit(int id,  Cliente cliente)
         {
             if (id != cliente.Id)
             {
@@ -120,14 +121,14 @@ namespace CRUDProyect.Controllers
             return View(cliente);
         }
 
-        // Verifica si el cliente existe en la base de datos
+        
         private bool ClienteExists(int id)
         {
             return _context.Clientes.Any(e => e.Id == id);
         }
 
-        // Detalle del cliente
-        public async Task<IActionResult> Details(int? id)
+        
+        public async Task<IActionResult> DetalleClient(int? id)
         {
             if (id == null)
             {
